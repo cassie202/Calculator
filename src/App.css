@@ -44,8 +44,6 @@ input[type="text"] {
   grid-column: 3/5;
   grid-row: 5;
 }
-#backspace {
-}
 button {
   margin: 5px;
   background: #262834;
