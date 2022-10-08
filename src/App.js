@@ -5,10 +5,9 @@ const App = () => {
   const [result, setResult] = useState("");
 
   const click = (e) => {
-    console.log("amaka", e);
-    console.log("amaka", result);
-    setResult(result.concat(e.target.name));
+  setResult(result.concat(e.target.name));
   };
+
   const del = () => {
     setResult("");
   };
@@ -16,6 +15,8 @@ const App = () => {
     setResult(result.slice(0, result.length - 1));
   };
   const calculate = () => {
+
+    // eslint-disable-next-line
     setResult(eval(result).toString());
   };
 
