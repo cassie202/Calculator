@@ -15,7 +15,6 @@ const App = () => {
     setResult(result.slice(0, result.length - 1));
   };
   const calculate = () => {
-
     // eslint-disable-next-line
     setResult(eval(result).toString());
   };
